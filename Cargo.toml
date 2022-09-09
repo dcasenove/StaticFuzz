@@ -4,5 +4,6 @@ members = [
         "fuzzer",
         "runtime_fast",
         "runtime",
+        "parser",
         "tools/log_reader",
 ]

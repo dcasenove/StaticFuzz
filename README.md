@@ -1,9 +1,21 @@
-# ParmeSan: Sanitizer-guided Greybox Fuzzing
+# StaticFuzz: Static Analysis Guided Fuzzing
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-ParmeSan is a sanitizer-guided greybox fuzzer based on
-[Angora](https://github.com/AngoraFuzzer/Angora).
+StaticFuzz is an end-to-end pipeline that combines static analysis and directed fuzzing.
+It uses static analyzers to flag potential bugs in code and directed fuzzing to guide execution towards these location.
+
+StaticFuzz leverages the Static Analysis Results Interchange Format (SARIF) to gather and combine offending locations from different static analyzers.
+The gathered targets are then fed to ParmeSan, a directed fuzzer.
+
+The version of ParmeSan used implements an inter-procedural CFG to better direct fuzzing and several bug fixes that improve targeting capabilities.
+
+Refer to [BUILD_TARGET.md](./BUILD_TARGET.md) for an example of how to build a target and run the pipeline.
+
+
+# ParmeSan: Sanitizer-guided Greybox Fuzzing
+
+ParmeSan is a sanitizer-guided greybox fuzzer based on [Angora](https://github.com/AngoraFuzzer/Angora).
 
 ## Published Work
 
@@ -70,7 +82,7 @@ The targets input file consisit of a JSON file with the following format:
   "edges":   [[1,2], [2,3]],
   "callsite_dominators": {"1": [3,4,5]}
 }
-``` 
+```
 
 Where the targets denote the identify of the cmp instruction to target (i.e., the id assigned by the `__angora_trace_cmp()` calls) and edges is the overlay graph of cmp ids (i.e., which cmps are connected to each other). The `edges` filed can be empty, since ParmeSan will add newly discovered edges automatically, but note that the performance will be better if you provide the static CFG.
 

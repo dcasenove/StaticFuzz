@@ -1,0 +1,847 @@
+[
+  {
+    "clang_version": "clang version 5.0.1 (tags/RELEASE_501/final)",
+    "files": [
+      "libavcodec/vp56.c"
+    ],
+    "diagnostics": [
+      {
+        "path": [
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 547,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 547,
+                    "col": 9,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 551,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 551,
+                    "col": 7,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "event",
+            "location": {
+              "line": 551,
+              "col": 5,
+              "file": 0
+            },
+            "ranges": [
+              [
+                {
+                  "line": 551,
+                  "col": 5,
+                  "file": 0
+                },
+                {
+                  "line": 551,
+                  "col": 31,
+                  "file": 0
+                }
+              ]
+            ],
+            "depth": 0,
+            "extended_message": "'alpha_offset' declared without an initial value",
+            "message": "'alpha_offset' declared without an initial value"
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 551,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 551,
+                    "col": 7,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 555,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 555,
+                    "col": 6,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 555,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 555,
+                    "col": 6,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 555,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 555,
+                    "col": 9,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "event",
+            "location": {
+              "line": 555,
+              "col": 9,
+              "file": 0
+            },
+            "ranges": [
+              [
+                {
+                  "line": 555,
+                  "col": 9,
+                  "file": 0
+                },
+                {
+                  "line": 555,
+                  "col": 20,
+                  "file": 0
+                }
+              ]
+            ],
+            "depth": 0,
+            "extended_message": "Assuming the condition is false",
+            "message": "Assuming the condition is false"
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 555,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 555,
+                    "col": 9,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 564,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 564,
+                    "col": 7,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 564,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 564,
+                    "col": 7,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 565,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 565,
+                    "col": 6,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 565,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 565,
+                    "col": 6,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 565,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 565,
+                    "col": 11,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "event",
+            "location": {
+              "line": 565,
+              "col": 9,
+              "file": 0
+            },
+            "ranges": [
+              [
+                {
+                  "line": 565,
+                  "col": 9,
+                  "file": 0
+                },
+                {
+                  "line": 565,
+                  "col": 15,
+                  "file": 0
+                }
+              ]
+            ],
+            "depth": 0,
+            "extended_message": "Assuming 'res' is >= 0",
+            "message": "Assuming 'res' is >= 0"
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 565,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 565,
+                    "col": 11,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 568,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 568,
+                    "col": 6,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 568,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 568,
+                    "col": 6,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 568,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 568,
+                    "col": 11,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "event",
+            "location": {
+              "line": 568,
+              "col": 9,
+              "file": 0
+            },
+            "ranges": [
+              [
+                {
+                  "line": 568,
+                  "col": 9,
+                  "file": 0
+                },
+                {
+                  "line": 568,
+                  "col": 31,
+                  "file": 0
+                }
+              ]
+            ],
+            "depth": 0,
+            "extended_message": "Assuming 'res' is not equal to VP56_SIZE_CHANGE",
+            "message": "Assuming 'res' is not equal to VP56_SIZE_CHANGE"
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 568,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 568,
+                    "col": 11,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 576,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 576,
+                    "col": 7,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 576,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 576,
+                    "col": 7,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 577,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 577,
+                    "col": 6,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 577,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 577,
+                    "col": 6,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 577,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 577,
+                    "col": 11,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "event",
+            "location": {
+              "line": 577,
+              "col": 9,
+              "file": 0
+            },
+            "ranges": [
+              [
+                {
+                  "line": 577,
+                  "col": 9,
+                  "file": 0
+                },
+                {
+                  "line": 577,
+                  "col": 15,
+                  "file": 0
+                }
+              ]
+            ],
+            "depth": 0,
+            "extended_message": "Assuming 'ret' is >= 0",
+            "message": "Assuming 'ret' is >= 0"
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 577,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 577,
+                    "col": 11,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 583,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 583,
+                    "col": 6,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 583,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 583,
+                    "col": 6,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 583,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 583,
+                    "col": 13,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "event",
+            "location": {
+              "line": 583,
+              "col": 9,
+              "file": 0
+            },
+            "ranges": [
+              [
+                {
+                  "line": 583,
+                  "col": 9,
+                  "file": 0
+                },
+                {
+                  "line": 583,
+                  "col": 45,
+                  "file": 0
+                }
+              ]
+            ],
+            "depth": 0,
+            "extended_message": "Assuming the condition is true",
+            "message": "Assuming the condition is true"
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 583,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 583,
+                    "col": 13,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 584,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 584,
+                    "col": 22,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 584,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 584,
+                    "col": 22,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 585,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 585,
+                    "col": 10,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 585,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 585,
+                    "col": 10,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 585,
+                    "col": 13,
+                    "file": 0
+                  },
+                  {
+                    "line": 585,
+                    "col": 13,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "event",
+            "location": {
+              "line": 585,
+              "col": 13,
+              "file": 0
+            },
+            "ranges": [
+              [
+                {
+                  "line": 585,
+                  "col": 13,
+                  "file": 0
+                },
+                {
+                  "line": 585,
+                  "col": 85,
+                  "file": 0
+                }
+              ]
+            ],
+            "depth": 0,
+            "extended_message": "Assuming the condition is false",
+            "message": "Assuming the condition is false"
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 585,
+                    "col": 13,
+                    "file": 0
+                  },
+                  {
+                    "line": 585,
+                    "col": 13,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 593,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 593,
+                    "col": 6,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 593,
+                    "col": 5,
+                    "file": 0
+                  },
+                  {
+                    "line": 593,
+                    "col": 6,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 601,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 601,
+                    "col": 11,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 601,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 601,
+                    "col": 11,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 605,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 605,
+                    "col": 11,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "control",
+            "edges": [
+              {
+                "start": [
+                  {
+                    "line": 605,
+                    "col": 9,
+                    "file": 0
+                  },
+                  {
+                    "line": 605,
+                    "col": 11,
+                    "file": 0
+                  }
+                ],
+                "end": [
+                  {
+                    "line": 605,
+                    "col": 13,
+                    "file": 0
+                  },
+                  {
+                    "line": 605,
+                    "col": 14,
+                    "file": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "event",
+            "location": {
+              "line": 605,
+              "col": 13,
+              "file": 0
+            },
+            "ranges": [
+              [
+                {
+                  "line": 605,
+                  "col": 16,
+                  "file": 0
+                },
+                {
+                  "line": 605,
+                  "col": 27,
+                  "file": 0
+                }
+              ]
+            ],
+            "depth": 0,
+            "extended_message": "Assigned value is garbage or undefined",
+            "message": "Assigned value is garbage or undefined"
+          }
+        ],
+        "description": "Assigned value is garbage or undefined",
+        "category": "Logic error",
+        "type": "Assigned value is garbage or undefined",
+        "check_name": "core.uninitialized.Assign",
+        "issue_hash_content_of_line_in_context": "ce63dc0b4b3e916c60920baffbb2f462",
+        "issue_context_kind": "function",
+        "issue_context": "ff_vp56_decode_frame",
+        "issue_hash_function_offset": "59",
+        "location": {
+          "line": 605,
+          "col": 13,
+          "file": 0
+        }
+      }
+    ]
+  }
+]
